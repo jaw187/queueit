@@ -1,0 +1,21 @@
+{
+    "name": "queueit",
+    "version": "0.0.1",
+    "author": "James Weston",
+    "description": "Utility to throttle programs which over utilize the spawn function. Can also be used to throttle functions which need it. Will address EMFILE exceptions which are thrown when too many file descriptors are used by program.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jaw187/queueit.git"
+    },
+    "keywords": [
+        "queue", "ELAN", "spawn", "EMFILEqueue", "EMFILE"
+    ],
+    "license": "BSD",
+    "scripts": {
+        "test": "jasmine-node --verbose test/specs"
+    },
+    "engines": {
+        "node": "~0.10.0"
+    }
+}
